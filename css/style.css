@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Montserrat, sans-serif ;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__perfil {
+    width: 15vw;
+    height: 15vw;
+
+    background-image: url(../img/fotoperfil.png);
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 100%;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+.container__midias {
+    display: flex;
+}
+
+.container__midias__img {
+    width: 2vw;
+    height: 2vw;
+
+    margin-right: 10px;
+}
+
+.container__midias__img:hover {
+    width: 2.2vw;
+    height: 2.2vw;
+}
+
+.container__links {
+    margin-right: 16px;
+}
