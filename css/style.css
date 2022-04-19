@@ -29,7 +29,10 @@ body {
     border-radius: 100%;
     border-style: solid;
     border-color: black;
-    
+}
+
+.container__texto {
+    text-align: center;
 }
 
 .container__midias {
